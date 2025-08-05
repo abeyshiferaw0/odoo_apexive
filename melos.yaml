@@ -1,0 +1,10 @@
+name: my_monorepo
+packages:
+  - 'apps/*'
+  - 'packages/**'
+
+scripts:
+  gen:icons:
+    run: |
+      melos exec -c 1 --scope=app_ui --dir-exists=assets -- flutter pub run build_runner build --delete-conflicting-outputs
+    description: Generate assets for the app_icons package.

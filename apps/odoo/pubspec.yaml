@@ -1,0 +1,42 @@
+name: odoo
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  bloc: ^9.0.0
+  flutter:
+    sdk: flutter
+
+  # For localization
+  flutter_localizations:
+    sdk: flutter
+  # For state management
+  flutter_bloc: ^9.1.1
+  hydrated_bloc: ^10.1.1
+  equatable: ^2.0.7
+  get_it: ^8.2.0
+  # For utils
+  intl: ^0.20.2
+  path_provider: ^2.1.1
+  uuid: ^4.2.1
+  # For routing
+  go_router: ^14.8.1
+  # For ui
+  dropdown_button2: ^2.3.9
+  app_ui:
+    path: ../../packages/app_ui
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
