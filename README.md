@@ -10,7 +10,7 @@ flutter version used (Channel stable, 3.32.8)
 
 1. Clone this repository:
 ```bash
-clone https://github.com/abeyshiferaw0/odoo_apexive.git
+git clone https://github.com/abeyshiferaw0/odoo_apexive.git
 cd odoo_test
 ```
 2. Set up melos and bootstrap project:
